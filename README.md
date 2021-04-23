@@ -24,6 +24,7 @@ Used in order to generate dialect-specific sources. The generated sources depend
 classes of this root project, and therefore the plugin is unlikely to be of any use as a 
 stand-alone -- If you are writing your own dialect XML files, then forking this project
 is likely what you're after.
+In order to generate the custom messages, run the script gradlew (Linux) or gradlew.bat (Windows).
 
 #### mavlink (root project)
 A higher level API which provides its users with a complete abstraction from the lower level 
